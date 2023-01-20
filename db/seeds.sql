@@ -4,7 +4,7 @@ VALUES (1, "Human Recources"),
        (3, "Technology"),
        (4, "Marketing");
        
-INSERT INTO roles (department_id, title, salary)
+INSERT INTO role (department_id, title, salary)
 VALUES (1, "Manager", 93000),
        (1, "Analyst", 66000),
        (2, "Accountant", 83000),
@@ -14,7 +14,7 @@ VALUES (1, "Manager", 93000),
        (4, "Consultant", 67000),
        (4, "Director", 125000);
        
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Scoobert", "Doo", 2, NULL),
        ("Shaggy", "Rogers", 1, 1),
        ("Daphne", "Blake", 3, 3),
